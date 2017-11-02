@@ -1,11 +1,11 @@
-#Description
+# Description
 
 Packet analyser application works just like Wireshark.This application can't capture the package.
 It analyses a captured packet.It will extract and display the different headers of the captured packets in the file datafile. First, it displays the ethernet header fields of the captured frames. Second, if the ethernet frame contains an IP datagram, it prints the IP header. Third, it prints the packets encapsulated in the IP datagram. TCP, UDP, or ICMP packets can be encapsulated in the IP packet.
 
 It works as a shell command along with the packet captured file.
 
-##How to Use
+## How to Use
 
 ```commandline
 chmod +x pktanalyzer.sh
